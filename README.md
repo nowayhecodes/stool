@@ -1,0 +1,2 @@
+# stool
+A CouchDB wrapper.
