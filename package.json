@@ -2,23 +2,27 @@
   "name": "stool",
   "version": "1.0.0",
   "description": "A CouchDB wrapper.",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "",
+    "dev": "node_modules/.bin/nodemon --watch 'src/**/*.ts' --ignore 'src/**/*.spec.ts' --exec 'ts-node' index.ts",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nowayhecodes/stool.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Gustavo Cavalcante",
+  "license": "GNUv3",
   "bugs": {
     "url": "https://github.com/nowayhecodes/stool/issues"
   },
   "homepage": "https://github.com/nowayhecodes/stool#readme",
   "dependencies": {
-    "@types/node": "^14.0.24"
+    "@types/node": "^14.0.24",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.9.7"
   },
   "devDependencies": {
     "@types/jest": "^26.0.5",
