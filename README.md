@@ -1,4 +1,4 @@
-# Stool
+# Seat
 
 ![stoolicon](asset/icon.png)
 
